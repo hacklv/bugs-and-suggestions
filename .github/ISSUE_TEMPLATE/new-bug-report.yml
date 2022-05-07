@@ -67,13 +67,8 @@ body:
         a. Find your FiveM logs file by navigating to `C:\Users\<your user name>\AppData\Local\FiveM\FiveM.app\logs`   
 
         b. In the logs folder find the log with the date and time relevent to the session of FiveM you encountered the bug in. (usually the latest one)
-        
-        d. Click the arrow next to the green button and change it to "Create public gist".
-        
-        e. Click the green button to create the gist.
   - type: input
     id: log_file
     attributes:
       label: Log File
-      description: Please paste the url to the gist containing your log file.
-      placeholder: https://gist.github.com/<your_user_name>/<gist_id>
+      description: Drag and drop the log file into the box below.
