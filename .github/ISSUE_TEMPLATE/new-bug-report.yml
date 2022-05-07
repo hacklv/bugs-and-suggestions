@@ -67,7 +67,7 @@ body:
         a. Find your FiveM logs file by navigating to `C:\Users\<your user name>\AppData\Local\FiveM\FiveM.app\logs`   
 
         b. In the logs folder find the log with the date and time relevent to the session of FiveM you encountered the bug in. (usually the latest one)
-  - type: input
+  - type: textarea
     id: log_file
     attributes:
       label: Log File
