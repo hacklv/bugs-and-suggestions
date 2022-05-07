@@ -1,7 +1,7 @@
 name: Bug report
 description: >-
   Please use this template when you have encountered a bug in the Paradox Gaming FiveM Server.  
-title: '[Bug]: '
+title: '[BUG] '
 body:
   - type: input
     id: discord_name
