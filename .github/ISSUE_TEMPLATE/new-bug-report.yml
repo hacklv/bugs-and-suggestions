@@ -1,0 +1,86 @@
+name: Bug report
+description: >-
+  Please use this template when you have encountered a bug in the Paradox Gaming FiveM Server.  
+title: '[Bug]: '
+body:
+  - type: input
+    id: discord_name
+    attributes:
+      label: Your Discord Name
+      description: E.g. xXJamie_Xx#7669
+    validations:
+      required: true
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: A clear and concise description of what the bug is
+      description: Please explain thoroughly what the bug is so that we are able to locate the exact issue.
+    validations:
+      required: true
+  - type: textarea
+    id: repro_steps
+    attributes:
+      label: Steps to Reproduce the Bug
+      description: Please explain what we need to do to cause the bug.
+      placeholder: >-
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: >-
+        A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots/Videos
+      description: Upload any videos or screenshots that showcase the bug and link them here.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra Notes (Optional)
+      description: >-
+        Optionally, please include anything else you'd like to say about the bug.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: >-
+        ## Sharing your log file
+
+        In order to diagnose a bug, we will need to see your log file for the session you encountered the bug.  
+
+        To share your log here, please follow these steps:
+
+
+        1. If you don't have it already, find your log file.  
+
+        a. Find your FiveM logs file by navigating to `C:\Users\<your user name>\AppData\Local\FiveM\FiveM.app\logs`   
+
+        b. In the logs folder find the log with the date and time relevent to the session of FiveM you encountered the bug in. (usually the latest one)
+
+        1. Create a Gist from the log file, and copy the url.  
+
+        a. Go to `https://gist.github.com/`
+        
+        b. Enter a reasonable title in the "Gist description" box.
+        
+        c. Paste the contents of your log file into the main body box.
+        
+        d. Click the arrow next to the green button and change it to "Create public gist".
+        
+        e. Click the green button to create the gist.
+  - type: input
+    id: log_file
+    attributes:
+      label: Log File
+      description: Please paste the url to the gist containing your log file.
+      placeholder: https://gist.github.com/<your_user_name>/<gist_id>
