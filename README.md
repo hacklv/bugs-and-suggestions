@@ -1,2 +1,2 @@
-# Paradox Bugs
-Bug Reports For Paradox Gaming
+# Paradox Bugs & QOL Suggestions
+Bug Reports & Quality of Life Suggestions For Paradox Gaming
