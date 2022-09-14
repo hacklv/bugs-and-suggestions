@@ -16,4 +16,4 @@ jobs:
           # to the issue
           project-url: https://github.com/orgs/ParadoxGamingRP/projects/1
           github-token: ${{ secrets.PARADOX_BUGS_SECRET }}
-          labeled: Bug
+          labeled: Bug, Enhancement
