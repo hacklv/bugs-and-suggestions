@@ -2,7 +2,7 @@
 name: QOL Report
 about: Create a QOL report for fixing an annoyance 
 title: "[ENHANCEMENT] Enter QOL report title"
-labels: 'Enhancement'
+labels: 'type: Enhancement'
 assignees: ''
 
 ---
