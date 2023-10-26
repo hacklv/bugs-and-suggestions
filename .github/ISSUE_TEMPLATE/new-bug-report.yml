@@ -4,7 +4,11 @@ description: >-
 title: '[BUG] <short description>'
 labels: 'type: Bug'
 body:
-  - type: input
+  - type: markdown
+    attributes:
+      value: >-
+        ## MAKE SURE YOU PUT A TITLE ABOVE!
+ - type: input
     id: discord_name
     attributes:
       label: Your Discord Name
