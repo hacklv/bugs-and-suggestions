@@ -8,7 +8,7 @@ body:
     attributes:
       value: >-
         ## MAKE SURE YOU PUT A TITLE ABOVE!
- - type: input
+  - type: input
     id: discord_name
     attributes:
       label: Your Discord Name
